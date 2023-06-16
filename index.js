@@ -15,13 +15,9 @@ scuberGreetingForFeet(2001)
 scuberGreetingForFeet(2501) 
 
 function ternaryCheckCity(city){
-  let result
-  if(city==='NYC'){
-    result='Ok, sounds good.'
-  }else if(city==='Pittsburgh'){
-    result='No go.'
-  }
-  return result;
+  
+ return city==='NYC'?('Ok, sounds good.'):('No go.')
+  
 }
 ternaryCheckCity('NYC')
 ternaryCheckCity('Pittsburgh')
